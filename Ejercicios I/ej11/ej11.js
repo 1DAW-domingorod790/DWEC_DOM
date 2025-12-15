@@ -4,7 +4,7 @@
     let listaServidores=["terra.es","google.com","marca.es","yahoo.es"];
 
     form.addEventListener("submit", (e) => {
-        const regExp = /^[a-z]+@[a-z]+.[a-z]+$/;
+        const regExp = /^[a-z]+@[a-z]+\.[a-z]+$/;
         let email = document.querySelector("#idEmail");
         let mensaje = regExp.test(email.value);
         if (!mensaje) {
