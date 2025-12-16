@@ -9,7 +9,6 @@
         let opt2;
         let opt3;
         let optDefault;
-        let options;
         switch (select1.value){
             case 'alicante': 
                 select2.innerHTML = "";
