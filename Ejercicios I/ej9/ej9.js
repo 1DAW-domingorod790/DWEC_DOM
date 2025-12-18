@@ -18,7 +18,7 @@
     bolaPapel.setAttribute("alt", "Papelera vacía");
     bolaPapel.style.height = "200px";
     bolaPapel.style.width = "200px";
-    bolaPapel.setAttribute("draggable", "true");
+    // bolaPapel.setAttribute("draggable", "true");
     div1.appendChild(bolaPapel);
 
     papeleraVacia.addEventListener ("dragover", (e) => {

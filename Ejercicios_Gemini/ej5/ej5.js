@@ -56,7 +56,7 @@
                 clearInterval(intervalo);
             }
         }
-    });
+    }, {once: true});
 
 
 }

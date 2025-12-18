@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Drag and Drop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .cajaRoja, .cajaAzul {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            cursor: grab;
+        }
+
+        .cajaRoja {
+            background-color: red;
+        }
+
+        .cajaAzul {
+            background-color: blue;
+        }
+
+        .contenedor {
+            width: 300px;
+            height: 200px;
+            border: 3px dashed #555;
+            margin-top: 30px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Arrastra las cajas</h2>
+
+    <!-- Elementos arrastrables -->
+    <div class="cajaRoja" draggable="true"></div>
+    <div class="cajaAzul" draggable="true"></div>
+
+    <!-- Contenedor destino -->
+    <div class="contenedor">
+        <p>Suéltalos aquí</p>
+    </div>
+
+    <script src="js/10.dragAndDrop.js"></script>
+
+</body>
+</html>
